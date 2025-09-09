@@ -98,8 +98,8 @@ public
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-# Config directory (already present)
-config/
+# Node.js config directory (but allow Java config)
+config/db.js
 
 # Project directories
 routes/
