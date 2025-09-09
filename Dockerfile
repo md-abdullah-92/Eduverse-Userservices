@@ -30,4 +30,4 @@ ENV PORT=10000
 ENV SPRING_PROFILES_ACTIVE=production
 
 # Run the application
-CMD ["sh", "-c", "echo 'Starting application...' && echo \"PORT=${PORT}\" && echo \"DATABASE_URL=${DATABASE_URL}\" && echo \"DB_USERNAME=${DB_USERNAME}\" && echo \"DB_PASSWORD=${DB_PASSWORD}\" && echo \"SPRING_PROFILES_ACTIVE=${SPRING_PROFILES_ACTIVE}\" && java -jar target/user-services-1.0.0.jar --spring.profiles.active=${SPRING_PROFILES_ACTIVE} --server.port=${PORT}"]
+CMD ["sh", "-c", "echo 'Starting application...' && echo \"PORT=${PORT}\" && echo \"DATABASE_URL=${DATABASE_URL}\" && echo \"DB_USERNAME=${DB_USERNAME}\" && echo \"DB_PASSWORD=${DB_PASSWORD}\" && echo \"SPRING_PROFILES_ACTIVE=${SPRING_PROFILES_ACTIVE}\" && java -Dspring.datasource.url=\"${DATABASE_URL}\" -Dspring.datasource.username=\"${DB_USERNAME}\" -Dspring.datasource.password=\"${DB_PASSWORD}\" -Dspring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver -jar target/user-services-1.0.0.jar --spring.profiles.active=${SPRING_PROFILES_ACTIVE} --server.port=${PORT}"]
