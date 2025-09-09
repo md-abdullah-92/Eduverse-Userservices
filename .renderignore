@@ -1,4 +1,3 @@
-Dockerfile*
-.dockerignore
-docker-compose.yml
-docker-compose.yaml
+# Ignore backup docker files only
+Dockerfile.backup
+.dockerignore.bak
