@@ -108,3 +108,9 @@ controllers/
 services/
 middlewares/
 prisma/
+
+# Node.js files to ignore (removing Node.js parts from Java project)
+server.js
+server.log
+package.json
+package-lock.json
