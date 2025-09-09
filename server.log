@@ -1,0 +1,243 @@
+nohup: ignoring input
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.eduverse:user-services[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding EduVerse User Services 1.0.0[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:3.2.0:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36muser-services[0;1m >>>[m
+[[1;33mWARNING[m] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36muser-services[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 0 resource from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36muser-services[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36muser-services[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/apurbo/Music/Userservices/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36muser-services[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:3.2.0:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36muser-services[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.2.0:run[m [1m(default-cli)[m @ [36muser-services[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2025-08-20T15:25:50.358+06:00  INFO 14468 --- [user-services] [  restartedMain] c.e.u.UserServicesApplication            : Starting UserServicesApplication using Java 21.0.8 with PID 14468 (/home/apurbo/Music/Userservices/target/classes started by apurbo in /home/apurbo/Music/Userservices)
+2025-08-20T15:25:50.360+06:00 DEBUG 14468 --- [user-services] [  restartedMain] c.e.u.UserServicesApplication            : Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-08-20T15:25:50.360+06:00  INFO 14468 --- [user-services] [  restartedMain] c.e.u.UserServicesApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-08-20T15:25:50.387+06:00  INFO 14468 --- [user-services] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-20T15:25:50.387+06:00  INFO 14468 --- [user-services] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-20T15:25:50.771+06:00  INFO 14468 --- [user-services] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-20T15:25:50.818+06:00  INFO 14468 --- [user-services] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 9 JPA repository interfaces.
+2025-08-20T15:25:51.160+06:00  INFO 14468 --- [user-services] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5000 (http)
+2025-08-20T15:25:51.166+06:00  INFO 14468 --- [user-services] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-20T15:25:51.166+06:00  INFO 14468 --- [user-services] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-08-20T15:25:51.187+06:00  INFO 14468 --- [user-services] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-20T15:25:51.188+06:00  INFO 14468 --- [user-services] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 801 ms
+2025-08-20T15:25:51.259+06:00  INFO 14468 --- [user-services] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-20T15:25:51.286+06:00  INFO 14468 --- [user-services] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-08-20T15:25:51.303+06:00  INFO 14468 --- [user-services] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-20T15:25:51.421+06:00  INFO 14468 --- [user-services] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-20T15:25:51.438+06:00  INFO 14468 --- [user-services] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-20T15:25:51.636+06:00  INFO 14468 --- [user-services] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f0f5023
+2025-08-20T15:25:51.637+06:00  INFO 14468 --- [user-services] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-20T15:25:51.664+06:00  WARN 14468 --- [user-services] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-20T15:25:52.255+06:00  INFO 14468 --- [user-services] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-20T15:25:52.308+06:00  INFO 14468 --- [user-services] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T15:25:52.494+06:00  INFO 14468 --- [user-services] [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-20T15:25:52.745+06:00 DEBUG 14468 --- [user-services] [  restartedMain] c.e.u.config.JwtRequestFilter            : Filter 'jwtRequestFilter' configured for use
+2025-08-20T15:25:53.007+06:00  WARN 14468 --- [user-services] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-20T15:25:53.155+06:00  INFO 14468 --- [user-services] [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@61ea3870, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@446da1b7, org.springframework.security.web.context.SecurityContextHolderFilter@3b4a5836, org.springframework.security.web.header.HeaderWriterFilter@7d95ac51, org.springframework.web.filter.CorsFilter@5d7cf09d, org.springframework.security.web.authentication.logout.LogoutFilter@4dffb2dd, com.eduverse.userservices.config.JwtRequestFilter@7a1e1233, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6cf207bb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79d7ccb4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66096d15, org.springframework.security.web.session.SessionManagementFilter@4c158ddc, org.springframework.security.web.access.ExceptionTranslationFilter@48209d2d, org.springframework.security.web.access.intercept.AuthorizationFilter@475c5fcd]
+2025-08-20T15:25:53.305+06:00  INFO 14468 --- [user-services] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-20T15:25:53.322+06:00  INFO 14468 --- [user-services] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5000 (http) with context path ''
+2025-08-20T15:25:53.327+06:00  INFO 14468 --- [user-services] [  restartedMain] c.e.u.UserServicesApplication            : Started UserServicesApplication in 3.204 seconds (process running for 3.447)
+2025-08-20T15:26:04.583+06:00  INFO 14468 --- [user-services] [nio-5000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-20T15:26:04.584+06:00  INFO 14468 --- [user-services] [nio-5000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-20T15:26:04.585+06:00  INFO 14468 --- [user-services] [nio-5000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-20T15:26:04.589+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/quiz
+2025-08-20T15:26:04.593+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-1] c.e.u.config.JwtRequestFilter            : JwtRequestFilter processing URI: /api/quiz
+2025-08-20T15:26:04.594+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-20T15:26:04.595+06:00  WARN 14468 --- [user-services] [nio-5000-exec-1] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/quiz' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-08-20T15:26:04.601+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/quiz
+2025-08-20T15:26:04.655+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-1] org.hibernate.SQL                        : 
+    select
+        q1_0.id,
+        q1_0.created_at,
+        q1_0.description,
+        q1_0.duration,
+        q1_0.teacher_id,
+        q1_0.title,
+        q1_0.updated_at 
+    from
+        quizzes q1_0
+2025-08-20T15:26:18.840+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/assignment
+2025-08-20T15:26:18.841+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-2] c.e.u.config.JwtRequestFilter            : JwtRequestFilter processing URI: /api/assignment
+2025-08-20T15:26:18.845+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-20T15:26:18.846+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/assignment
+2025-08-20T15:26:18.849+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-2] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.created_at,
+        a1_0.description,
+        a1_0.teacher_id,
+        a1_0.title,
+        a1_0.updated_at 
+    from
+        assignments a1_0
+2025-08-20T15:26:40.839+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/studynote
+2025-08-20T15:26:40.839+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-4] c.e.u.config.JwtRequestFilter            : JwtRequestFilter processing URI: /api/studynote
+2025-08-20T15:26:40.839+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-20T15:26:40.840+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/studynote
+2025-08-20T15:26:40.843+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-4] org.hibernate.SQL                        : 
+    select
+        sn1_0.id,
+        sn1_0.created_at,
+        sn1_0.description,
+        sn1_0.teacher_id,
+        sn1_0.title,
+        sn1_0.updated_at 
+    from
+        study_notes sn1_0
+2025-08-20T15:32:33.558+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/user/me
+2025-08-20T15:32:33.558+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/user/me
+2025-08-20T15:32:33.561+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/user/me
+2025-08-20T15:32:33.557+06:00 DEBUG 14468 --- [user-services] [nio-5000-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/user/me
+2025-08-20T15:32:33.821+06:00 DEBUG 14468 --- [user-services] [io-5000-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/user/me
+2025-08-20T15:32:33.846+06:00 DEBUG 14468 --- [user-services] [io-5000-exec-10] c.e.u.config.JwtRequestFilter            : JwtRequestFilter processing URI: /api/user/me
+2025-08-20T15:32:34.630+06:00 DEBUG 14468 --- [user-services] [io-5000-exec-10] c.e.u.config.JwtRequestFilter            : Extracted username 'mdabdullahalmahadiapurbo@gmail.com' from JWT on URI: /api/user/me
+2025-08-20T15:32:34.918+06:00 DEBUG 14468 --- [user-services] [io-5000-exec-10] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.is_verified,
+        u1_0.name,
+        u1_0.oauth_id,
+        u1_0.otp,
+        u1_0.otp_expires_at,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.profile_image,
+        u1_0.provider,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2025-08-20T15:32:35.115+06:00 DEBUG 14468 --- [user-services] [io-5000-exec-10] org.hibernate.SQL                        : 
+    select
+        sp1_0.id,
+        sp1_0.address,
+        sp1_0.bio,
+        sp1_0.cover_photo,
+        sp1_0.created_at,
+        sp1_0.date_of_birth,
+        sp1_0.education_level,
+        sp1_0.guardian_email,
+        sp1_0.guardian_name,
+        sp1_0.guardian_phone,
+        sp1_0.institution,
+        sp1_0.profile_photo,
+        sp1_0.updated_at,
+        sp1_0.user_id 
+    from
+        student_profiles sp1_0 
+    where
+        sp1_0.user_id=?
+2025-08-20T15:32:35.297+06:00 DEBUG 14468 --- [user-services] [io-5000-exec-10] org.hibernate.SQL                        : 
+    select
+        tp1_0.id,
+        tp1_0.bio,
+        tp1_0.certifications,
+        tp1_0.cover_photo,
+        tp1_0.created_at,
+        tp1_0.education,
+        tp1_0.experience,
+        tp1_0.institution,
+        tp1_0.profile_photo,
+        tp1_0.rating,
+        tp1_0.specialization,
+        tp1_0.updated_at,
+        tp1_0.user_id 
+    from
+        teacher_profiles tp1_0 
+    where
+        tp1_0.user_id=?
+2025-08-20T15:32:37.222+06:00 DEBUG 14468 --- [user-services] [io-5000-exec-10] c.e.u.config.JwtRequestFilter            : JWT valid for user 'mdabdullahalmahadiapurbo@gmail.com' on URI: /api/user/me
+2025-08-20T15:32:37.282+06:00 DEBUG 14468 --- [user-services] [io-5000-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/user/me
+2025-08-20T15:32:37.381+06:00 DEBUG 14468 --- [user-services] [io-5000-exec-10] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.is_verified,
+        u1_0.name,
+        u1_0.oauth_id,
+        u1_0.otp,
+        u1_0.otp_expires_at,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.profile_image,
+        u1_0.provider,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2025-08-20T15:32:37.393+06:00 DEBUG 14468 --- [user-services] [io-5000-exec-10] org.hibernate.SQL                        : 
+    select
+        sp1_0.id,
+        sp1_0.address,
+        sp1_0.bio,
+        sp1_0.cover_photo,
+        sp1_0.created_at,
+        sp1_0.date_of_birth,
+        sp1_0.education_level,
+        sp1_0.guardian_email,
+        sp1_0.guardian_name,
+        sp1_0.guardian_phone,
+        sp1_0.institution,
+        sp1_0.profile_photo,
+        sp1_0.updated_at,
+        sp1_0.user_id 
+    from
+        student_profiles sp1_0 
+    where
+        sp1_0.user_id=?
+2025-08-20T15:32:37.397+06:00 DEBUG 14468 --- [user-services] [io-5000-exec-10] org.hibernate.SQL                        : 
+    select
+        tp1_0.id,
+        tp1_0.bio,
+        tp1_0.certifications,
+        tp1_0.cover_photo,
+        tp1_0.created_at,
+        tp1_0.education,
+        tp1_0.experience,
+        tp1_0.institution,
+        tp1_0.profile_photo,
+        tp1_0.rating,
+        tp1_0.specialization,
+        tp1_0.updated_at,
+        tp1_0.user_id 
+    from
+        teacher_profiles tp1_0 
+    where
+        tp1_0.user_id=?
+2025-08-20T15:32:37.524+06:00  INFO 14468 --- [user-services] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T15:32:37.540+06:00  INFO 14468 --- [user-services] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-20T15:32:37.572+06:00  INFO 14468 --- [user-services] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
