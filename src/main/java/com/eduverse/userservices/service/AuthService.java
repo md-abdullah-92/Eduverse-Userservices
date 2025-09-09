@@ -3,6 +3,7 @@ package com.eduverse.userservices.service;
 import java.time.LocalDateTime;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -35,6 +36,7 @@ public class AuthService {
     private TeacherProfileRepository teacherProfileRepository;
     
     @Autowired
+    @Lazy
     private PasswordEncoder passwordEncoder;
     
     @Autowired

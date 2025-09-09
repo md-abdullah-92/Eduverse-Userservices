@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.AuthenticationProvider;
@@ -31,8 +32,8 @@ public class SecurityConfig {
     private final PasswordEncoder passwordEncoder;
     
     public SecurityConfig(JwtAuthenticationEntryPoint jwtAuthenticationEntryPoint,
-                         JwtRequestFilter jwtRequestFilter,
-                         UserService userService,
+                         @Lazy JwtRequestFilter jwtRequestFilter,
+                         @Lazy UserService userService,
                          PasswordEncoder passwordEncoder) {
         this.jwtAuthenticationEntryPoint = jwtAuthenticationEntryPoint;
         this.jwtRequestFilter = jwtRequestFilter;
