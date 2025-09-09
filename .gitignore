@@ -114,3 +114,15 @@ server.js
 server.log
 package.json
 package-lock.json
+
+# Java specific
+target/
+src/main/resources/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.iml
+.idea/
+.vscode/
