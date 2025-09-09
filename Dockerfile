@@ -26,4 +26,4 @@ RUN mvn clean package -DskipTests
 EXPOSE 10000
 
 # Run the application
-CMD ["java", "-jar", "target/user-services-1.0.0.jar", "--spring.profiles.active=production"]
+CMD ["sh", "-c", "echo 'Starting application...' && echo 'PORT=$PORT' && echo 'DATABASE_URL=$DATABASE_URL' && java -jar target/user-services-1.0.0.jar --spring.profiles.active=production --server.port=${PORT:-10000}"]
